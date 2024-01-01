@@ -2,8 +2,15 @@ import React from 'react';
 
 const Cart = () => {
     return (
-        <div className='mr-[80px] mt-10 bg-white h-[320px] w-[259px] fixed right-1 z-5'>
-            <h1>dasdasdsad</h1>
+        <div className='mr-[80px] mt-10 bg-white h-[420px] w-[359px] fixed right-1 top-[75px] rounded-[15px] '>
+            <h1 className='font-semibold text-2xl mt-2 ml-2'>Cart</h1>
+            <div>
+                <div className='flex justify-center mt-20'>
+                <img src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" alt="" />
+                </div>
+                <h1 className='font-bold text-3xl text-center'>Your cart is currently
+                    empty</h1>
+            </div>
         </div>
     );
 };
