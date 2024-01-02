@@ -2,7 +2,7 @@
 // import { TfiWorld } from "react-icons/tfi";
 const Navbar = () => {
     return (
-        <div className="fixed top-0 left-0 right-0  z-20">
+        <div className="fixed top-0 left-0 right-0  z-[80]">
             <div className='px-4 py-4 bg-[#F5F4F2] border border-b-2'>
                 <div className=' max-w-[95%] mx-auto flex justify-between'>
                     {/* Nav Left part */}
