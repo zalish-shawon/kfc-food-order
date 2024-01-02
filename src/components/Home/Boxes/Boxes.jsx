@@ -2,7 +2,7 @@ import React from 'react';
 
 const Boxes = () => {
     return (
-        <div>
+        <div id='section2'>
              <div >
             <h1 className='font-bold text-3xl mt-3'>Боксы</h1>
             <div className='mt-3 mb-10 grid grid-cols-1 lg:grid-cols-3 gap-2'>

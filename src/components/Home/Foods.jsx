@@ -10,17 +10,17 @@ import JuicyChicken from "./JuicyChicken/JuicyChicken";
 import Snacks from "./NewItems/Snacks/Snacks";
 import Drinks from "./Drinks/Drinks";
 import Additional from "./Additional/Additional";
-import Footer from "./Footer";
 
 
 const Foods = () => {
     return (
-        <div className="absolute top-24 left-[300px] z-10">
+        // banner or hero section for kfc
+        <div className="absolute top-24 mt-5 lg:mt-0 left-[80px] lg:left-[300px] z-10">
             <div className="relative">
-                <div className="w-[660px] h-[300px] relative z-20 rounded-[25px] overflow-hidden">
+                <div className="w-[360px] h-[150px] lg:w-[660px] lg:h-[300px] relative z-20 rounded-[25px] overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-[#070707]  opacity-55"></div>
                     <img className="w-full h-full object-cover" src="https://eda.yandex/images/3378693/049e8232c93c3ce2b19dc94a1da9ba26-1100x825.jpg" alt="" />
-                    <div className="absolute bottom-28 left-8">
+                    <div className="absolute bottom-28 top-1 left-8">
                         <h1 className="font-bold text-5xl text-[#EFE8E8]">KFC</h1>
                     </div>
                     <div className="absolute bottom-9 left-10">
@@ -56,6 +56,7 @@ const Foods = () => {
                     <div className="text-xl"><span className="font-semibold">Free delivery</span><br />off any order</div>
                 </h1>
             </div>
+            {/* all foods categories */}
             <NewItems></NewItems>
             <Boxes></Boxes>
             <Combo></Combo>

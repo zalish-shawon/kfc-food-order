@@ -3,8 +3,10 @@ import React from 'react';
 const JuicyChicken = () => {
     return (
         <div>
-                    <div >
+            <div >
+            <div id='section4'>
             <h1 className='font-bold text-3xl mt-3'>Сочная курочка</h1>
+            </div>
             <div className='mt-3 mb-10 flex flex-col lg:flex-row gap-2'>
                 {/* food card */}
                 <div className='bg-[white] rounded-[17px] flex justify-center items-center p-4'>

@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unknown-property */
 import Cart from './Cart';
 import Foods from './Foods';
-import Footer from './Footer';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
 const Home = () => {
     return (
         <div>
+            {/* Layouts */}
              <div>
              <Navbar></Navbar>
              <div className='flex justify-between'>
@@ -16,9 +16,7 @@ const Home = () => {
                 <Cart></Cart>
              </div>
              </div>
-             <div className=''>
-             <Footer></Footer>
-             </div>
+             
         </div>
     );
 };
