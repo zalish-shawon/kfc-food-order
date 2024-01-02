@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cart = () => {
     return (
-        <div className='mr-[40px]  mt-10 bg-white h-[420px] w-[359px] lg:fixed right-1 top-[75px] rounded-[15px]'>
+        <div className='mr-[20px]  mt-10 bg-white h-[420px] w-[310px] lg:fixed right-1 top-[75px] rounded-[15px]'>
             <h1 className='font-semibold text-2xl mt-2 ml-2'>Cart</h1>
             <div>
                 <div className='flex justify-center mt-20'>
