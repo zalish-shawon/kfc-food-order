@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewItems = () => {
     return (
-        <div >
+        <div id='section1' >
             <h1 className='font-bold text-3xl mt-3'>Новинки</h1>
             <div className='mt-3 mb-10 flex flex-col lg:flex-row gap-2'>
                 {/* food card */}

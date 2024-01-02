@@ -4,13 +4,20 @@ import { IoMdInformationCircleOutline } from "react-icons/io";
 import { PiSealWarningFill } from "react-icons/pi";
 import { FaPersonRunning } from "react-icons/fa6";
 import NewItems from "./NewItems/NewItems";
+import Boxes from "./Boxes/Boxes";
+import Combo from "./Combo/Combo";
+import JuicyChicken from "./JuicyChicken/JuicyChicken";
+import Snacks from "./NewItems/Snacks/Snacks";
+import Drinks from "./Drinks/Drinks";
+import Additional from "./Additional/Additional";
+import Footer from "./Footer";
 
 
 const Foods = () => {
     return (
         <div className="absolute top-24 left-[300px] z-10">
             <div className="relative">
-                <div className="w-[600px] h-[300px] relative z-20 rounded-[25px] overflow-hidden">
+                <div className="w-[660px] h-[300px] relative z-20 rounded-[25px] overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-[#070707]  opacity-55"></div>
                     <img className="w-full h-full object-cover" src="https://eda.yandex/images/3378693/049e8232c93c3ce2b19dc94a1da9ba26-1100x825.jpg" alt="" />
                     <div className="absolute bottom-28 left-8">
@@ -50,6 +57,13 @@ const Foods = () => {
                 </h1>
             </div>
             <NewItems></NewItems>
+            <Boxes></Boxes>
+            <Combo></Combo>
+            <JuicyChicken></JuicyChicken>
+            <Snacks></Snacks>
+            <Drinks></Drinks>
+            <Additional></Additional>
+            
         </div>
 
     );
